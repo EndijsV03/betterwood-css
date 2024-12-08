@@ -1,0 +1,65 @@
+/* Import the Source Sans 3 font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
+
+/* Apply the font globally to the chatbot */
+.voiceflow-chat {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+/* Header Section */
+.vfrc-header,
+.vfrc-assistant-info--title,
+.vfrc-assistant-info--description {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+/* Chat Messages */
+.vfrc-chat,
+.vfrc-system-response,
+.vfrc-user-response {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+/* Assistant Responses */
+.vfrc-system-response--indicator,
+.vfrc-system-response--controls,
+.vfrc-system-response--list,
+.vfrc-system-response--actions,
+.vfrc-system-response .vfrc-message {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+/* User Responses */
+.vfrc-user-response .vfrc-message {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+/* Buttons */
+.vfrc-button {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+/* Input Field */
+.vfrc-input,
+.vfrc-chat-input--button {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+/* Footer Branding */
+.vfrc-footer--watermark {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+/* Timestamp and Status */
+.vfrc-timestamp,
+.vfrc-chat--status {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+/* Cards and Carousel */
+.vfrc-card--content,
+.vfrc-card--header,
+.vfrc-card--description,
+.vfrc-carousel--button {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
