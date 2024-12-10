@@ -7,8 +7,14 @@
 }
 
 /* Header Section */
-.vfrc-header,
-.vfrc-assistant-info--title,
+.vfrc-header {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+.vfrc-assistant-info--title {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
 .vfrc-assistant-info--description {
   font-family: 'Source Sans 3', sans-serif !important;
 }
@@ -40,8 +46,15 @@
 }
 
 /* Input Field */
-.vfrc-input,
+.vfrc-input {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
 .vfrc-chat-input--button {
+  font-family: 'Source Sans 3', sans-serif !important;
+}
+
+.vf-footer {
   font-family: 'Source Sans 3', sans-serif !important;
 }
 
