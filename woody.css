@@ -6,18 +6,6 @@
   font-family: 'Source Sans 3', sans-serif !important;
 }
 
-/* Remove custom styles for buttons and revert to defaults */
-.vfrc-button {
-  font-family: 'Source Sans 3', sans-serif !important;
-  font-weight: 600; /* Keep bold text for readability */
-  background: initial !important; /* Revert to default background */
-  color: initial !important; /* Revert to default text color */
-  border: none !important; /* Remove custom borders if added */
-  padding: initial; /* Reset padding */
-  border-radius: initial; /* Reset border radius */
-  box-shadow: initial; /* Reset shadow */
-}
-
 /* Customize the chat bubble launcher */
 .vfrc-launcher {
   font-family: 'Source Sans 3', sans-serif !important;
