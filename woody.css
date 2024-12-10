@@ -6,6 +6,31 @@
   font-family: 'Source Sans 3', sans-serif !important;
 }
 
+
+/* Header Section - Assistant Info Title (Headline) */
+.vfrc-assistant-info--title {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-weight: 600; /* Bold for better emphasis */
+  font-size: 1.2em; /* Optional: Adjust font size */
+  color: #333; /* Optional: Slightly darker color for readability */
+}
+
+/* Input Field */
+.vfrc-input input {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: 1em; /* Optional: Adjust font size */
+  border: none; /* Clean input field design */
+  border-bottom: 1px solid #ccc; /* Subtle underline for the input field */
+  padding: 8px; /* Padding for better spacing */
+  outline: none; /* Remove focus outline */
+}
+
+.vfrc-input input::placeholder {
+  font-family: 'Source Sans 3', sans-serif !important;
+  color: #888; /* Light gray placeholder text */
+  font-style: italic; /* Optional: Italic placeholder text */
+}
+
 /* Header Section */
 .vfrc-header,
 .vfrc-assistant-info--title,
