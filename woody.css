@@ -1,39 +1,35 @@
-/* Import the Source Sans 3 font */
+/* Import the Source Sans 3 font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
 
-/* Apply font globally to the chatbot */
+/* Apply the font globally to the chatbot */
 .voiceflow-chat {
   font-family: 'Source Sans 3', sans-serif !important;
 }
 
-/* Chat widget header styling */
+/* Header Section */
 .vfrc-header,
 .vfrc-assistant-info--title,
 .vfrc-assistant-info--description {
   font-family: 'Source Sans 3', sans-serif !important;
-  font-weight: 600; /* Bold text for titles */
-  color: white; /* Header text color */
-  background-color: #2e7d32; /* Green background for the header */
 }
 
-/* Chat message body */
+/* Chat Messages */
 .vfrc-chat,
-.vfrc-chat--dialog,
-.vfrc-message {
+.vfrc-system-response,
+.vfrc-user-response {
   font-family: 'Source Sans 3', sans-serif !important;
 }
 
-/* Assistant responses */
-.vfrc-system-response,
-.vfrc-system-response .vfrc-message,
+/* Assistant Responses */
+.vfrc-system-response--indicator,
+.vfrc-system-response--controls,
 .vfrc-system-response--list,
 .vfrc-system-response--actions,
-.vfrc-system-response--indicator {
+.vfrc-system-response .vfrc-message {
   font-family: 'Source Sans 3', sans-serif !important;
 }
 
-/* User responses */
-.vfrc-user-response,
+/* User Responses */
 .vfrc-user-response .vfrc-message {
   font-family: 'Source Sans 3', sans-serif !important;
 }
@@ -41,92 +37,29 @@
 /* Buttons */
 .vfrc-button {
   font-family: 'Source Sans 3', sans-serif !important;
-  font-weight: 600; /* Bold text */
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
-/* "End Chat" button */
-.vfrc-button:first-child {
-  background-color: #d32f2f !important; /* Red background */
-  color: white !important; /* White text */
-}
-
-/* "Cancel" button */
-.vfrc-button:last-child {
-  background-color: transparent !important; /* Transparent background */
-  color: black !important; /* Black text */
-  border: 1px solid #ccc; /* Optional subtle border */
-}
-
-/* "Start New Chat" button styling */
+/* Input Field */
+.vfrc-input,
 .vfrc-chat-input--button {
-  background-color: #2e7d32 !important; /* Match header green color */
-  color: white !important; /* White text */
-  font-size: 1em; /* Adjust font size */
-  border-radius: 5px; /* Rounded corners */
-  border: none; /* No border */
-  padding: 10px 20px;
-  text-align: center; /* Center text */
-}
-
-/* Hover effect for "Start New Chat" */
-.vfrc-chat-input--button:hover {
-  background-color: #25692a !important; /* Slightly darker green on hover */
-  color: white !important;
-}
-
-/* Placeholder text in input field */
-.vfrc-input input::placeholder {
   font-family: 'Source Sans 3', sans-serif !important;
-  color: #888; /* Light gray placeholder text */
-  font-style: italic; /* Italic placeholder */
 }
 
-/* Footer watermark */
+/* Footer Branding */
 .vfrc-footer--watermark {
   font-family: 'Source Sans 3', sans-serif !important;
-  font-size: 0.8em;
-  color: #aaa; /* Subtle watermark color */
 }
 
-/* Timestamp and chat status */
+/* Timestamp and Status */
 .vfrc-timestamp,
-.vfrc-chat--session-time,
 .vfrc-chat--status {
   font-family: 'Source Sans 3', sans-serif !important;
-  font-size: 0.9em;
-  color: #666; /* Subtle metadata color */
 }
 
-/* Cards and carousel */
+/* Cards and Carousel */
 .vfrc-card--content,
 .vfrc-card--header,
 .vfrc-card--description,
-.vfrc-carousel,
 .vfrc-carousel--button {
   font-family: 'Source Sans 3', sans-serif !important;
-}
-
-/* Form labels and inputs */
-label,
-.vfrc-chat--form-label {
-  font-family: 'Source Sans 3', sans-serif !important;
-  font-weight: 600;
-  color: #333;
-}
-
-/* Chat input field styling */
-.vfrc-input {
-  font-family: 'Source Sans 3', sans-serif !important;
-}
-
-.vfrc-input input {
-  font-family: 'Source Sans 3', sans-serif !important;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  padding: 8px;
-  outline: none;
 }
