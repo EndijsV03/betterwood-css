@@ -1,4 +1,4 @@
-/* Import the Source Sans 3 font */
+/* Import the Source Sans 3 font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&display=swap');
 
 /* Apply the font globally to the chatbot */
@@ -6,38 +6,30 @@
   font-family: 'Source Sans 3', sans-serif !important;
 }
 
-/* Customize the chat bubble launcher */
-.vfrc-launcher {
-  font-family: 'Source Sans 3', sans-serif !important;
-}
-
-/* Chat widget header */
+/* Header Section */
 .vfrc-header,
 .vfrc-assistant-info--title,
 .vfrc-assistant-info--description {
   font-family: 'Source Sans 3', sans-serif !important;
-  font-weight: 600; /* Titles in bold */
-  color: #333; /* Darker text for clarity */
 }
 
-/* Chat message body */
+/* Chat Messages */
 .vfrc-chat,
-.vfrc-chat--dialog,
-.vfrc-message {
+.vfrc-system-response,
+.vfrc-user-response {
   font-family: 'Source Sans 3', sans-serif !important;
 }
 
-/* Assistant responses */
-.vfrc-system-response,
-.vfrc-system-response .vfrc-message,
+/* Assistant Responses */
+.vfrc-system-response--indicator,
+.vfrc-system-response--controls,
 .vfrc-system-response--list,
 .vfrc-system-response--actions,
-.vfrc-system-response--indicator {
+.vfrc-system-response .vfrc-message {
   font-family: 'Source Sans 3', sans-serif !important;
 }
 
-/* User responses */
-.vfrc-user-response,
+/* User Responses */
 .vfrc-user-response .vfrc-message {
   font-family: 'Source Sans 3', sans-serif !important;
 }
@@ -45,71 +37,29 @@
 /* Buttons */
 .vfrc-button {
   font-family: 'Source Sans 3', sans-serif !important;
-  font-weight: 600;
-  color: #fff;
-  background: linear-gradient(to right, #2e6ee1, #2e7ff1); /* Optional: gradient button style */
-  padding: 8px 12px;
-  border-radius: 5px;
 }
 
-/* Chat input field */
-.vfrc-input {
+/* Input Field */
+.vfrc-input,
+.vfrc-chat-input--button {
   font-family: 'Source Sans 3', sans-serif !important;
 }
 
-.vfrc-input input {
-  font-family: 'Source Sans 3', sans-serif !important;
-  border: none;
-  border-bottom: 1px solid #ccc;
-  padding: 8px;
-  outline: none;
-}
-
-/* Placeholder text in input field */
-.vfrc-input input::placeholder {
-  font-family: 'Source Sans 3', sans-serif !important;
-  color: #888; /* Lighter placeholder text */
-  font-style: italic;
-}
-
-/* Footer watermark */
+/* Footer Branding */
 .vfrc-footer--watermark {
   font-family: 'Source Sans 3', sans-serif !important;
-  font-size: 0.8em;
-  color: #aaa; /* Subtle watermark color */
 }
 
-/* Timestamp and chat status */
+/* Timestamp and Status */
 .vfrc-timestamp,
-.vfrc-chat--session-time,
 .vfrc-chat--status {
   font-family: 'Source Sans 3', sans-serif !important;
-  font-size: 0.9em;
-  color: #666; /* Grey for subtle metadata */
 }
 
-/* Cards and carousel */
+/* Cards and Carousel */
 .vfrc-card--content,
 .vfrc-card--header,
 .vfrc-card--description,
-.vfrc-carousel,
 .vfrc-carousel--button {
   font-family: 'Source Sans 3', sans-serif !important;
-}
-
-/* Proactive message prompt */
-.vfrc-prompt {
-  font-family: 'Source Sans 3', sans-serif !important;
-  font-weight: 600;
-  background: #f9f9f9; /* Light grey background */
-  border-radius: 5px;
-  padding: 10px;
-}
-
-/* Form labels and inputs */
-label,
-.vfrc-chat--form-label {
-  font-family: 'Source Sans 3', sans-serif !important;
-  font-weight: 600;
-  color: #333;
 }
