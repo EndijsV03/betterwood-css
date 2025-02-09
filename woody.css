@@ -19,6 +19,12 @@
   font-family: 'Source Sans 3', sans-serif !important;
 }
 
+.vfrc-input__input::placeholder {
+    color: #aaa !important; /* Change the placeholder color if needed */
+    content: "...";
+    opacity: 1 !important;
+}
+
 /* Chat Messages */
 .vfrc-chat,
 .vfrc-system-response,
